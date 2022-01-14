@@ -1,0 +1,11 @@
+name = input ( "Import full name of your:" )
+print ( "Your full name is:" , name )
+def  sothuannghich ( n ):
+    str1  =  str ( n );
+    str2  =  str1 [:: - 1 ];
+    nếu ( str1  ==  str2 ):
+        trả về  True ;
+    khác :
+        trả về  Sai ;
+n  =  int ( input ( "Nhập số nguyên dương n =" ));
+print ( "Tổng số chữ của" , n , "là" , sothuannghich ( n ));
